@@ -3,6 +3,7 @@
 :root {
     font-size: 10px;
     --profile-picture-border: #649f8f;
+	--visually-hidden: none;
 }
 
 *,
@@ -111,3 +112,13 @@ img {
 .gallery-item:hover .gallery-item-info {
 	opacity: 1;
 }
+
+.visually-hidden{
+	display: var(--visually-hidden);
+
+}
+
+ul{
+	list-style: var(--visually-hidden);
+}
+
