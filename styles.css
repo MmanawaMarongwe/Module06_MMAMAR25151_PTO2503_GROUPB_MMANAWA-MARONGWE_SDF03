@@ -2,6 +2,7 @@
 
 :root {
     font-size: 10px;
+    --profile-picture-border: #649f8f;
 }
 
 *,
@@ -28,4 +29,16 @@ img {
 	align-items: flex-start;
 	padding: 40px 0;
 	border-bottom: 1px solid #dbdbdb;
+}
+
+.profile-image {
+	flex: 0 0 auto;
+	width: 150px;
+	margin-right: 30px;
+}
+
+.profile-image img {
+	width: 100%;
+	border-radius: 50%;
+    border: 7px  solid var(--profile-picture-border);
 }
