@@ -83,13 +83,31 @@ img {
 	gap: 10px;
 	margin-top: 30px;
 }
-.gallery img {
+
+.gallery-image {
 	width: 100%;
-	aspect-ratio: 1/1;
-	display: block;
+	aspect-ratio: 1/1.5;
 	object-fit: cover;
+	display: block;
 }
 
-.gallery-item-info, .gallery-item-type {
-	display: none;
+.gallery-item {
+	position: relative;
+	overflow: hidden;
+}
+
+.gallery-item-info {
+	position: absolute;
+	inset: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-item-info {
+	opacity: 1;
 }
