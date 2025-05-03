@@ -113,12 +113,15 @@ img {
 	opacity: 1;
 }
 
-.visually-hidden{
+.gallery-item-type, .visually-hidden{
 	display: var(--visually-hidden);
 
 }
 
-ul{
-	list-style: var(--visually-hidden);
+.gallery-item-info ul {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
 }
-
