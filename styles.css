@@ -16,11 +16,17 @@ body {
     min-height: 100vh;
     background-color: #fafafa;
     color: #262626;
-    padding-bottom: 3rem;
+    padding-bottom: 3rem; 
 }
 
 img {
     display: block;
+}
+/* Container */
+.container {
+	width: 90%;
+	max-width: 935px;
+	margin: 0 auto;
 }
 
 /* Profile */
@@ -76,4 +82,9 @@ img {
 	grid-template-columns: repeat(auto-fill, minmax(293px, 1fr));
 	gap: 28px;
 	margin-top: 30px;
+}
+.gallery img {
+	width: 100%;
+	display: block;
+	object-fit: cover;
 }
