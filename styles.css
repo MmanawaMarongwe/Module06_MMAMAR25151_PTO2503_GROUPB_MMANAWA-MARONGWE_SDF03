@@ -77,6 +77,16 @@ img {
 	margin-right: 20px;
 }
 
+.profile-settings-btn {
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	color: #262626; 
+	font-size: 18px;
+	padding-left: 10px;
+}
+
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
