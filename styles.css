@@ -39,7 +39,7 @@ img {
 
 .profile-image {
 	flex: 0 0 auto;
-	width: 200px;
+	width: 175px;
 	margin-right: 30px;
 }
 
@@ -57,7 +57,7 @@ img {
 	display: flex;
 	list-style: none;
 	gap: 30px;
-	padding: 0;
+	padding: 25px auto;
 }
 
 .profile-stat-count {
@@ -87,6 +87,13 @@ img {
 	padding-left: 10px;
 }
 
+.profile-bio{
+	padding-top: 15px;
+}
+
+.profile-real-name{
+	font-weight: bold;
+}
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
