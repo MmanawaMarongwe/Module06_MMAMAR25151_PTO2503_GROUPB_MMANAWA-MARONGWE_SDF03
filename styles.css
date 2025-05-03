@@ -21,3 +21,11 @@ body {
 img {
     display: block;
 }
+
+/* Profile */
+.profile {
+	display: flex;             
+	align-items: flex-start;
+	padding: 40px 0;
+	border-bottom: 1px solid #dbdbdb;
+}
