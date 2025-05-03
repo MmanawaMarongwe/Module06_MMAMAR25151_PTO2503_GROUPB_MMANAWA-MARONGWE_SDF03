@@ -70,3 +70,10 @@ img {
 	font-weight: 300;
 	margin-right: 20px;
 }
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(293px, 1fr));
+	gap: 28px;
+	margin-top: 30px;
+}
