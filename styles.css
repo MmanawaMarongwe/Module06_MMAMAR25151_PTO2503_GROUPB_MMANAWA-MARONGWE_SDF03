@@ -42,3 +42,19 @@ img {
 	border-radius: 50%;
     border: 7px  solid var(--profile-picture-border);
 }
+
+.profile-stats {
+	margin-bottom: 20px;
+}
+
+.profile-stats ul {
+	display: flex;
+	list-style: none;
+	gap: 30px;
+	padding: 0;
+}
+
+.profile-stat-count {
+	font-weight: 600;
+}
+
