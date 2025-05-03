@@ -58,3 +58,15 @@ img {
 	font-weight: 600;
 }
 
+.profile-user-settings {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.profile-user-name {
+	font-size: 28px;
+	font-weight: 300;
+	margin-right: 20px;
+}
