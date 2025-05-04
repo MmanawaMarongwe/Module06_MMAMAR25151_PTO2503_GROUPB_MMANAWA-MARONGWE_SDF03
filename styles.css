@@ -3,7 +3,6 @@
 :root {
     font-size: 10px;
     --profile-picture-border: #649f8f;
-	--visually-hidden: none;
 }
 
 *,
@@ -50,14 +49,14 @@ img {
 }
 
 .profile-stats {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .profile-stats ul {
 	display: flex;
 	list-style: none;
 	gap: 30px;
-	padding: 25px auto;
+	padding: 5px 15px;
 }
 
 .profile-stat-count {
@@ -68,7 +67,7 @@ img {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .profile-user-name {
@@ -130,8 +129,7 @@ img {
 }
 
 .gallery-item-type, .visually-hidden{
-	display: var(--visually-hidden);
-
+	visibility: hidden;
 }
 
 .gallery-item-info ul {
